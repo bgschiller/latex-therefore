@@ -1,0 +1,21 @@
+\documentclass{article}
+
+
+\usepackage{therefore}
+
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{thm}{Theorem}
+
+\begin{document}
+
+\begin{thm}
+$\sqrt{2}$ is an irrational number.
+\end{thm}
+\begin{proof}
+Suppose $\sqrt{2}$ is rational. \Therefore it can be written in the form $\sqrt{2} = \frac{a}{b}$, where $a, b \in \mathbb{Z}$ and $\gcd(a,b) = 1$. \Therefore we can square both sides to get $2 = \frac{a^2}{b^2}$. Multiplying through by $b^2$, we see that $a^2 = 2b^2$. \Therefore $a^2$ must be an even number. If $a$ were odd, its square would be odd. \Therefore $a$ must be even: $a=2k$ for $k \in \mathbb{Z}$. 
+
+We know $a=2k$ is even and $a^2 = 2b^2$. \Therefore $a^2 = 4k^2 = 2b^2$, which implies that $2k^2 = b^2$. \Therefore $b^2$ must be even, and by the same logic as with $a^2$, $b$ must be even. \Therefore $\gcd(a,b) \geq 2$, as $a$ and $b$ share at least a factor of 2. This is a contradiction with the presumption that $\gcd(a,b) = 1$. \Therefore $\sqrt{2}$ is irrational.
+\end{proof}
+\end{document}
