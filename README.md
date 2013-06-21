@@ -4,7 +4,7 @@ tex-therefore
 
 Tired of needing to come up with synonyms for 'Therefore,' in your mathematical writing? Ponder no longer! This LaTeX package provides a macro to carefully select one of a multitude of choices.
 
-As an example, please see [sqrt_two.pdf](https://www.dropbox.com/s/r4s9c6bx6jynksv/sqrt_two.pdf).
+As an example, please see [sqrt_two.pdf](https://docs.google.com/file/d/0B5P_UFIGCcUaOWxxeEVoNGp4ZlU/edit?usp=sharing).
 
 This project was inspired by the thread at http://www.reddit.com/r/math/comments/1gov71/mathematical_writing_synonyms_for_therefore/ particularly 
 
