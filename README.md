@@ -3,10 +3,11 @@ latex-therefore
 
 Tired of needing to come up with synonyms for 'Therefore,' in your mathematical writing? Ponder no longer! This LaTeX package provides a macro to carefully select one of a multitude of choices.
 
+As an example, please see [sqrt_two.pdf](https://www.dropbox.com/s/r4s9c6bx6jynksv/sqrt_two.pdf).
 
 This project was inspired by the thread at http://www.reddit.com/r/math/comments/1gov71/mathematical_writing_synonyms_for_therefore/ particularly perpetual_motion's comment: We need a command that would just insert one at random.
 
-If you have suggestions for more phrases to include, feel free to fork/pull the repo, or just email me at bgschiller@gmail.com
+If you have suggestions for more phrases to include or want to write another example proof, feel free to fork/pull the repo. If you're not on GitHub, feel free to email me your additions at bgschiller@gmail.com.
 
 Usage
 -----
