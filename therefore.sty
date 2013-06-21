@@ -36,17 +36,12 @@
 
 \def\numphrases{24}
 
-\AtBeginDocument
-{
-	\RequirePackage
-	[
-		first=1, 
-		last=\numphrases, 
-		counter=phraseIndex
-	]
-	{lcg}
-	\rand % this \rand avoids some very odd bug.
-}
+%allow user to set seed
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{lcg}}
+\ProcessOptions\relax
+
+\RequirePackage[first=1, last=\numphrases, counter=phraseIndex] {lcg}
+
 
 \def\Therefore{%
 	\rand
