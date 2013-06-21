@@ -1,0 +1,54 @@
+%therefore package
+%provides a macro to randomly choose a phrase equivalent to 'therefore'
+%inspired by the post at http://www.reddit.com/r/math/comments/1gov71/mathematical_writing_synonyms_for_therefore/
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{therefore}[2013/06/20 Therefore Package written by Brian Schiller]
+
+\RequirePackage{arrayjobx}
+\newarray\ThereforePhrases
+\ThereforePhrases(1)={Therefore,}
+\ThereforePhrases(2)={Hence,}
+\ThereforePhrases(3)={So,}
+\ThereforePhrases(4)={It is trivial that}
+\ThereforePhrases(5)={Clearly,}
+\ThereforePhrases(6)={Behold!}
+\ThereforePhrases(7)={Ergo,}
+\ThereforePhrases(8)={And verily it goes that}
+\ThereforePhrases(9)={Thus,}
+\ThereforePhrases(10)={By logical extension,}
+\ThereforePhrases(11)={And verily,}
+\ThereforePhrases(12)={It is the will of the Gods that}
+\ThereforePhrases(13)={We find}
+\ThereforePhrases(14)={It can be shown that}
+\ThereforePhrases(15)={It transpires that}
+\ThereforePhrases(16)={As an exercise, prove that}
+\ThereforePhrases(17)={Wherefore said He unto them,}
+\ThereforePhrases(18)={As must be obvious to even the meanest intellect,}
+\ThereforePhrases(19)={The power of logic reveals the conclusion that}
+\ThereforePhrases(20)={This implies}
+\ThereforePhrases(21)={As Gauss proved,}
+\ThereforePhrases(22)={As Euler proved,}
+\ThereforePhrases(23)={And it was handed down from the heavens that}
+\ThereforePhrases(24)={It pleases the symmetry of the world that}
+
+
+\def\numphrases{24}
+
+\AtBeginDocument
+{
+	\RequirePackage
+	[
+		first=1, 
+		last=\numphrases, 
+		counter=phraseIndex
+	]
+	{lcg}
+	\rand % this \rand avoids some very odd bug.
+}
+
+\def\Therefore{%
+	\rand
+	\ThereforePhrases(\arabic{phraseIndex})
+}
