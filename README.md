@@ -18,10 +18,10 @@ Download the file therefore.sty to the directory where your LaTeX file is. In th
 \usepackage{therefore}
 ```
 
-Wherever you would otherwise laboriously choose a synonym for 'Therefore', simply type (for example)
+Wherever you would otherwise laboriously choose a synonym for 'Therefore', simply type
 
 ```latex
-\Therefore there are an inifinite number of primes
+\Therefore there are an infinite number of primes
 ```
 
 Notice that there is no trailing comma after `\Therefore`. This is because some of the transitions, such as 'And verily it goes that', do not require commas. If one is needed, it will be part of the expansion. 
