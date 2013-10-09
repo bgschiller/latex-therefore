@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[romanian]{therefore}
+
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{thm}{Theorem}
+
+\begin{document}
+
+\begin{thm}
+$\sqrt{2}$ este un număr irațional.
+\end{thm}
+\begin{proof}
+Presupunem, prin absurd, că $\sqrt{2}$ este rațional. \Therefore $\sqrt{2}$ poate fi scris în forma  $\sqrt{2} = \dfrac{a}{b}$, unde $a, b \in \mathbb{Z}$ și $cmmdc(a,b) = 1$. \Therefore ridicînd la pătrat ambele părți obținem $2 = \dfrac{a^2}{b^2}$. Iar înmulțind ambele părți cu $b^2$, obținem $a^2 = 2b^2$. \Therefore $a^2$ trebuie să fie un număr par. Dacă $a$ ar fi fost impar, atunci și $\sqrt{a}$ ar fi fost impar. \Therefore $a$ trebuie să fie par: $a=2k$, $k \in \mathbb{Z}$. 
+
+Am obținut că $a=2k$ este par și $a^2 = 2b^2$. \Therefore $a^2 = 4k^2 = 2b^2$, ce implică că $2k^2 = b^2$. \Therefore $b^2$ trebuie să fie par, și folosind același raționament ca și cu $a^2$, $b$ trebuie să fie par. \Therefore $cmmdc(a,b) \geq 2$, întrucît $a$ și $b$ se divid la cel puțin un factor al lui 2. Dar acest fapt este în contradicție cu presupunerea că $cmmdc(a,b) = 1$. \Therefore $\sqrt{2}$ este irațional.
+\end{proof}
+\end{document}
