@@ -37,11 +37,11 @@
 \ThereforePhrases(27)={For this reason,}
 \ThereforePhrases(28)={If there is any justice in the world,}
 
-
 \def\numphrases{28}
 
 %allow user to set seed
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{lcg}}
+\DeclareOption{romanian}{\input thereforeromanian.ldf}
 \ProcessOptions\relax
 
 \RequirePackage[first=1, last=\numphrases, counter=phraseIndex] {lcg}

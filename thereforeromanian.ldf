@@ -1,0 +1,13 @@
+\ProvidesFile{datenumbergerman.ldf}
+
+\ThereforePhrases(1)={Așadar}
+\ThereforePhrases(2)={Prin urmare}
+\ThereforePhrases(3)={Astfel}
+\ThereforePhrases(4)={Deci}
+\ThereforePhrases(5)={De aceea}
+\ThereforePhrases(6)={În acest fel}
+\ThereforePhrases(7)={Acesta implică}
+\ThereforePhrases(8)={Reiese că}
+\ThereforePhrases(9)={Rezultă că}
+
+\def\numphrases{9}
