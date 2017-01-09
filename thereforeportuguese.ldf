@@ -1,0 +1,25 @@
+\ProvidesFile{datenumbergerman.ldf}
+
+\ThereforePhrases(1)={Logo,}
+\ThereforePhrases(2)={Assim,}
+\ThereforePhrases(3)={Sabemos que}
+\ThereforePhrases(4)={É trivial mostrar que}
+\ThereforePhrases(5)={É óbvio que}
+\ThereforePhrases(6)={Claramente,}
+\ThereforePhrases(7)={Portanto,}
+\ThereforePhrases(8)={Isto implica que}
+\ThereforePhrases(9)={Consequentemente,}
+\ThereforePhrases(10)={De maneiras que}
+\ThereforePhrases(11)={Como o leitor pode facilmente verificar}
+\ThereforePhrases(12)={É o desígnio dos Deuses que}
+\ThereforePhrases(13)={Pode ser mostrado que}
+\ThereforePhrases(14)={Fica como um exercício para o leitor mostrar que}
+\ThereforePhrases(15)={Como Gauss demonstrou,}
+\ThereforePhrases(16)={Como Euler demonstrou,}
+\ThereforePhrases(17)={Se há justica no mundo,}
+\ThereforePhrases(18)={Como é óbvio até para o mais débil intelecto,}
+\ThereforePhrases(19)={Por uma questão de simetria temos que}
+\ThereforePhrases(20)={É uma verdade divina que}
+\ThereforePhrases(21)={É sabido que}
+
+\def\numphrases{21}
